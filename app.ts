@@ -1,19 +1,4 @@
-let userInput: unknown;
-let userName: string;
+const userName2 = 'Thong';
 
-userInput = 5;
-userInput = 'Thong';
-
-//to assign this, must have a type checking.
-if (typeof userInput === 'string') {
-    userName = userInput;
-}
-
-
-const generateError = (message: string, code: number): never => {
-    throw { message: message, errorCode: code };
-}
-
-generateError('An error occurred', 500);
-
+console.log(userName2);
 
